@@ -15,14 +15,12 @@ alert(textoMasLargo)
 
 // Segunda parte
 
-// El resultado es true
-var resultadoTrue = valores[0] && valores[2]
+if (valores[0] == true || valores[0] == false) {
+    alert("Comparando valores booleanos en posición 0 \n del array con '||' es true \n ya que se encuentra en dicho índice uno u otro")
+}
+alert("Comparando valores booleanos en posición 0 \n del array con '&&' es false \n ya que en dicho índice no se pueden encontrar ambos booleanos al mismo tiempo")
 
-// El resultado es false
-var resultadoFalse = valores[0] || valores[2]
 
-alert("Resultado true:" + resultadoTrue)
-alert("Resultado false:" + resultadoFalse)
 
 // Tercera parte
 
