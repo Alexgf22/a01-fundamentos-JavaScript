@@ -13,6 +13,17 @@ var textoMasLargo = obtenerTextos[0]
 
 alert(textoMasLargo)
 
+// Segunda parte
+
+// El resultado es true
+var resultadoTrue = valores[0] && valores[2]
+
+// El resultado es false
+var resultadoFalse = valores[0] || valores[2]
+
+alert("Resultado true:" + resultadoTrue)
+alert("Resultado false:" + resultadoFalse)
+
 // Tercera parte
 
 // Filtramos solamente los números
