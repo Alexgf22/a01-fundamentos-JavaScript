@@ -37,10 +37,10 @@ var multiplicacion = num1 * num2
 var division = num1 / num2
 var resto = num1 % num2
 
-alert(suma)
-alert(resta)
-alert(multiplicacion)
-alert(division)
-alert(resto)
+alert(num1 + " + " + num2 + " = " + suma)
+alert(num1 + " - " + num2 + " = " + resta)
+alert(num1 + " * " + num2 + " = " + multiplicacion)
+alert(num1 + " / " + num2 + " = " + division)
+alert(num1 + " % " + num2 + " = " + resto)
 
 

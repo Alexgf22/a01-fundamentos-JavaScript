@@ -7,6 +7,6 @@ function checkEvenOrOdd(number) {
 }
 
 
-var number = prompt("Enter a number to check if it is even or odd")
+var number = parseInt(prompt("Enter a integer number to check if it is even or odd"))
 var result = checkEvenOrOdd(number)
 alert(number + " is " + result)
